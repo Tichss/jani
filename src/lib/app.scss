@@ -1,5 +1,12 @@
+/* 
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap'); */
 
-@import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap');
+@font-face {
+    font-family: 'Geist';
+    src: url('https://demo.magic-portfolio.com/_next/static/media/569ce4b8f30dc480-s.p.woff2') format('woff2');
+    /* src: url('/geist.woff2') format('woff2'); */
+
+}
 
 :root {
  
@@ -555,12 +562,14 @@ body {
     background-color: white;
     margin: 0;
     padding: 0;
-    font-family: "Geist", sans-serif;
+    font-family: "Geist", "Comic Sans MS";
     font-optical-sizing: auto;
     font-style: normal;
+
      
 }
 
 * {
-        box-sizing: border-box;
-        scroll-behavior: smooth;  }
+    box-sizing: border-box;
+    scroll-behavior: smooth; 
+}
